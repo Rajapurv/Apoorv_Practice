@@ -18,6 +18,6 @@ public class Book {
         return price;
     }
     public void applyDiscount(float percent){
-        price = price * percent / 100;
+        price = (price - price * percent / 100);
     }
 }
